@@ -5,40 +5,72 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-color: whitesmoke;
+  position: relative;
 }
 
+footer {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 7em;
+}
+
+.jumbotron h2 {
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+.jumbotron .android-link {
+  margin-top: 3em;
+}
+
+.jumbotron .view-apps {
+  margin-top: 2em;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+#marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+#marketing h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+#marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.marketing .col-lg-4 img {
+#marketing .col-lg-4 img {
   border: 2px solid gray;
 }
 
-.marketing h2.section-heading {
+#marketing h2.section-heading {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
 }
 
+#marketing .img-circle {
+  width: 140px;
+  height: 140px;
+}
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  border-color: #777;
 }
 
 /* Thin out the marketing headings */
@@ -46,6 +78,16 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.featurette .featurette-image {
+  margin-top: 60px;
+  border-radius: 5%;
+}
+
+.featurette .android-link {
+  margin-top: 20px;
+  text-align: center;
 }
 
 /* RESPONSIVE CSS
@@ -84,6 +126,6 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 60px;
   }
 }

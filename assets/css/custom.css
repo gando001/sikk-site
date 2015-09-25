@@ -34,35 +34,61 @@ footer {
 .jumbotron .view-apps {
   margin-top: 2em;
 }
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #5a5a5a;
+  border-radius: 25%!important;
+  font-size: 40px;
+  color: #5a5a5a;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: 0;
+  color: #5a5a5a;
+  background: rgba(90,90,90,.5);
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-#marketing .col-lg-4 {
+#preview .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-#marketing h2 {
+#preview h2 {
   font-weight: normal;
 }
-#marketing .col-lg-4 p {
+#preview .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
 
-#marketing .col-lg-4 img {
+#preview .col-lg-4 img {
   border: 2px solid gray;
 }
 
-#marketing h2.section-heading {
+#preview h2.section-heading {
   text-align: center;
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-#marketing .img-circle {
+#preview .img-circle {
   width: 140px;
   height: 140px;
+}
+
+#preview .img-circle:hover,
+#preview .img-circle:focus {
+  border: 5px solid gray;
 }
 
 /* Featurettes

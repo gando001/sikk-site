@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="page-top" data-spy="scroll" data-target=".container">
+  <body id="home">
     <div class="container">
       <!-- Jumbotron -->
       <div class="jumbotron">
@@ -35,33 +35,36 @@
           </a>
         </div>
 
-        <div class="view-apps wow fadeIn" data-wow-delay="1s">
-          <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-
-
-          <a href="#marketing" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+        <div class="view-apps wow fadeIn" data-wow-delay="1.5s">
+          <a href="#preview" class="btn btn-circle" id="down-arrow">
+            <i class="fa fa-angle-double-down"></i>
+          </a>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div id="marketing">
+      <div id="preview">
         <!-- app preview -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="img-circle wow bounceIn" src="assets/images/sikk_snake/icon.png" alt="SIKK Snake icon">
+            <a href="#sikk-snake">
+              <img class="img-circle wow bounceIn" src="assets/images/sikk_snake/icon.png" alt="SIKK Snake icon">
+            </a>
             <h2>SIKK Snake</h2>
             <p>SIKK Snake is the snake game you know and love but with a twist. Travel through teleports, collect coins, control a snake and spin a wheel.</p>
           </div>
           <div class="col-lg-4">
-            <img class="img-circle wow bounceIn" data-wow-delay=".1s" src="assets/images/math_me/icon.png" alt="Math Me icon">
+            <a href="#math-me">
+              <img class="img-circle wow bounceIn" data-wow-delay=".1s" src="assets/images/math_me/icon.png" alt="Math Me icon">
+            </a>
             <h2>Math Me</h2>
             <p>Many people struggle with simple math questions ever relying on the calculator but what if you could solve many questions in a matter of seconds?</p>
           </div>
           <div class="col-lg-4">
-            <img class="img-circle wow bounceIn" data-wow-delay=".2s" src="assets/images/jumping_jeff/icon.png" alt="Jumping Jeff icon">
+            <a href="#jumping-jeff">
+              <img class="img-circle wow bounceIn" data-wow-delay=".2s" src="assets/images/jumping_jeff/icon.png" alt="Jumping Jeff icon">
+            </a>
             <h2>Jumping Jeff</h2>
             <p>Jeff the monkey needs your help to collect the fruit but you will have to jump using his pogo stick to reach them.</p>
           </div>
@@ -69,12 +72,16 @@
         <div class="row">
           <div class="col-lg-2"></div>
           <div class="col-lg-4">
-            <img class="img-circle wow bounceIn" data-wow-delay=".3s" src="assets/images/sikk_balloon/icon.png" alt="SIKK Balloon icon">
+            <a href="#sikk-balloon">
+              <img class="img-circle wow bounceIn" data-wow-delay=".3s" src="assets/images/sikk_balloon/icon.png" alt="SIKK Balloon icon">
+            </a>
             <h2>SIKK Balloon</h2>
             <p>SIKK Balloon is full of hot air and very delicate so guide it through jagged cliffs. How long can you last?</p>
           </div>
           <div class="col-lg-4">
-            <img class="img-circle wow bounceIn" data-wow-delay=".4s" src="assets/images/i_can_do_that/icon.png" alt="I Can Do That icon">
+            <a href="#i-can-do-that">
+              <img class="img-circle wow bounceIn" data-wow-delay=".4s" src="assets/images/i_can_do_that/icon.png" alt="I Can Do That icon">
+            </a>
             <h2>I Can Do That</h2>
             <p>I Can Do That is a simple memory game. You will be shown a pattern that you need to remember and repeat. Sounds easy but can you do that?</p>
           </div>
@@ -86,7 +93,7 @@
 
       <div id="featurettes">
         <!-- START THE FEATURETTES -->
-        <div class="row featurette">
+        <div class="row featurette" id="sikk-snake">
           <div class="col-md-7">
             <h2 class="featurette-heading">SIKK Snake <span class="text-muted">How long can you last?</span></h2>
             <p class="lead">Swipe to control the snake across 50 levels, each more difficult then the last. Pick up the bonus wheel to spin and win bonus items but watch out, not all of the items are what you want. Collect the coins in this arcade style game that can be used to spin the wheel should you need a life to continue!</p>
@@ -104,7 +111,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette" id="math-me">
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">Math Me <span class="text-muted">Speed or Accuracy?</span></h2>
             <p class="lead">Many people struggle with simple math questions ever relying on the calculator to solve 4 x 8 but what if you could solve this and 34 - 15 or 17 x 19 in a matter of seconds? Test yourself against the clock. Try to answer each question correctly but don't take too long!</p>
@@ -122,7 +129,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette" id="jumping-jeff">
           <div class="col-md-7">
             <h2 class="featurette-heading">Jumping Jeff <span class="text-muted">Will you help?</span></h2>
             <p class="lead">Jeff is very hungry but all of the bigger monkeys will not share their fruit. Jeff cannot reach the fruit above so he got a pogo stick to jump with but needs your help to collect the fruit. Test your skills in this fun and easy game. Swipe to make Jeff jump and tilt your device to move him. Go to the monkey bank to buy more fruit and upgrades for the next level.</p>
@@ -140,7 +147,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette" id="sikk-balloon">
           <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">SIKK Balloon <span class="text-muted">How long can you last?</span></h2>
             <p class="lead">SIKK of birds flying through gaps? Try to guide a delicate balloon through jagged cliffs. Use your device to move the balloon through obstacles up into the sky.</p>
@@ -158,7 +165,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette">
+        <div class="row featurette" id="i-can-do-that">
           <div class="col-md-7">
             <h2 class="featurette-heading">I Can Do That <span class="text-muted">Can you?</span></h2>
             <p class="lead">I Can Do That is a simple memory game. You will be shown a pattern that you need to remember and repeat. Sounds easy but can you do that? Choose from 4, 6 or 12 shapes to a pattern; each has 50 levels that increase in difficulty.</p>
@@ -180,7 +187,7 @@
       <!-- FOOTER -->
       <footer>
         <div class="nav">
-          <p class="pull-right"><a class="page-scroll" href="#page-top">Back to top</a></p>
+          <p class="pull-right"><a class="page-scroll" href="#home">Back to top</a></p>
           <p>&copy; 2015 SIKK APPS | <a href="mailto:sikk.apps@gmail.com">sikk.apps@gmail.com</a></p>
         </div>
       </footer>
@@ -192,6 +199,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/wow-js/wow.min.js"></script>
-    <script>new WOW().init();</script>
+    <script src="assets/js/custom.js">
+    </script>
+    <script>
+      $(document).ready(function(){
+        sikkApps.init();
+      });
+    </script>
   </body>
 </html>

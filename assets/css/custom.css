@@ -23,7 +23,7 @@ div.social-buttons ul {
 
 div.social-buttons li {
   float: left;
-  padding-right: 10px;
+  width: 85px;
 }
 
 div.social-buttons a {

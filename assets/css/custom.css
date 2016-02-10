@@ -141,7 +141,7 @@ div.social-buttons a {
 }
 
 .featurette .android-link img {
-  width: 40%;
+  max-width: 40%;
 }
 
 /* RESPONSIVE CSS
